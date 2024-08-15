@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 
-"""This module provides a function that returnes a string from a float number"""
+"""This module provides a function that returnes a string from a float num"""
 
 
 def to_str(n: float) -> str:
