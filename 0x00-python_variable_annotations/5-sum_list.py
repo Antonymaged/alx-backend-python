@@ -18,6 +18,6 @@ def sum_list(input_list: list[float]) -> float:
     6.5
     """
     sum: float = 0
-    for i in lis:
+    for i: float in lis:
         sum += i
     return sum
