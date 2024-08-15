@@ -1,9 +1,10 @@
 #!/usr/bin/env python3
 
 """in this module it returens the sum of floats in a list"""
+from typing import List
 
 
-def sum_list(input_list: list[float]) -> float:
+def sum_list(input_list: List[float]) -> float:
     """
     Calculate the sum of all float elements in a list.
 
@@ -18,6 +19,6 @@ def sum_list(input_list: list[float]) -> float:
     6.5
     """
     sum: float = 0
-    for i: float in lis:
+    for i in lis:
         sum += i
     return sum
