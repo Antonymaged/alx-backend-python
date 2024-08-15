@@ -9,7 +9,7 @@ This module provides a function to calculate the floor of a float number.
 
 def floor(n: float) -> int:
     """
-    Returns the floor of a float number.
+     Returns the floor of a float number.
 
     Args:
         n (float): The float number to be floored.
