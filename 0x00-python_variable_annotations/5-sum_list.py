@@ -3,7 +3,7 @@
 """in this module it returens the sum of floats in a list"""
 
 
-def sum_list(lis: list[float]) -> float:
+def sum_list(input_list: list[float]) -> float:
     """
     Calculate the sum of all float elements in a list.
 
