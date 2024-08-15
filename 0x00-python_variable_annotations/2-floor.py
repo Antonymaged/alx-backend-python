@@ -3,22 +3,22 @@
 import math
 
 """
-This module provides a function to calculate the floor of a float number.
+This module provides a function to calculate the floor of a floating-point number.
 """
-
 
 def floor(n: float) -> int:
     """
-     Returns the floor of a float number.
+    Returns the largest integer less than or equal to a given float.
 
     Args:
-        n (float): The float number to be floored.
+        n (float): The floating-point number to be floored.
 
     Returns:
-        int: The largest integer less than or equal to `n`.
+        int: The floor of the number.
 
     Example:
         >>> floor(4.7)
         4
     """
     return math.floor(n)
+
