@@ -3,8 +3,9 @@
 import math
 
 """
-This module provides a function to calculate the floor of a floating-point number.
+This module returnes a floor for a float num
 """
+
 
 def floor(n: float) -> int:
     """
@@ -21,4 +22,3 @@ def floor(n: float) -> int:
         4
     """
     return math.floor(n)
-
