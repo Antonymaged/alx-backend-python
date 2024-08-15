@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
 
-
 """
 This module provides a basic mathematical operation for adding two numbers.
 """
+
 
 def add(a: float, b: float) -> float:
     """
